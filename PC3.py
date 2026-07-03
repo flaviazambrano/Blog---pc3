@@ -218,3 +218,5 @@ elif opciones == 'Gráficos':
             html_content,
             height=600
         )
+
+        
