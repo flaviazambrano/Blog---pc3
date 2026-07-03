@@ -85,13 +85,13 @@ if opciones == 'Inicio':
 
     # Define una cadena de texto multilínea que contiene una guía para redactar una presentación personal.
     texto = """
-    Aquí escribe una presentación creativa sobre ti.
-    ¿Quién eres?, 
-    ¿De dónde eres?, 
-    ¿Qué estudias?, 
-    ¿Qué te gusta de tu carrera?, 
-    ¿Qué te gustaría hacer en el futuro?, 
-    ¿Qué te gusta hacer en tu tiempo libre?
+    ¡Hola! Soy Flavia Zambrano, estudiante de quinto ciclo de Periodismo en la PUCP. 
+    Vivo en el Centro de Lima, Perú, y me apasiona descubrir historias, investigar e informar 
+    sobre distintas realidades de mi país y del mundo. Uno de los aspectos que más disfruto es 
+    la fotografía periodística, porque me permite contar historias a través de imágenes.
+    En el futuro, me gustaría conducir un programa sobre moda indígena y contribuir a visibilizar 
+    la riqueza cultural del Perú. En mi tiempo libre disfruto jugar vóley, escribir poemas 
+    y escuchar mucha música.
     """
 
     # Muestra el texto en la segunda columna utilizando HTML
