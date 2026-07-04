@@ -1,7 +1,7 @@
 [theme]
 primaryColor="#BD6148"
 backgroundColor="#D68C54"
-secondaryBackgroundColor="#E8E3D9"
+secondaryBackgroundColor="#BD6148"
 textColor="#2E2E2E"
 font = "Playfair Display:https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap"
 codeFont = "JetBrains Mono:https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap"
