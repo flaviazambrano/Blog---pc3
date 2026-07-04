@@ -169,7 +169,7 @@ elif opciones == 'Gráficos':
 
     graficos = ['Gráfico_1', 'Gráfico_2', 'Mapa_1']
 
-    grafico_seleccionado = st.selectbox('Gráfico_1', graficos)
+    grafico_seleccionado = st.selectbox('Seleccionar un gráfico', graficos)
 
     # Mostramos el gráfico seleccionado
     if grafico_seleccionado == 'Gráfico_1':
