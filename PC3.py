@@ -138,7 +138,18 @@ elif opciones == 'Experiencia':
         con el propósito de comprender cómo se utilizan estos conceptos 
         básicos en la programación en Python."""
     )
-
+ st.subheader("🎥 Video 2 - YouTube")
+    # Inserta un video de YouTube directamente en la aplicación.
+    # El usuario puede reproducirlo sin salir de Streamlit.
+    st.video("https://www.youtube.com/watch?v=BY72HAKRFqM")
+    # Agrega una breve descripción del video.
+    st.caption(
+        """En este video se presenta una explicación sobre las diferencias entre 
+        las declaraciones condicionales if, if-else e if-elif-else en Python. 
+        Para ello, se utilizan ejemplos propios relacionados con objetos de una fiesta 
+        y con una lista de números, con el fin de mostrar cómo funciona cada estructura, 
+        en qué situaciones se utiliza y cuáles son sus principales diferencias."""
+    )
     # Formato B
     # Muestra un subtítulo para identificar el contenido del video
     st.subheader("🎥 Video 1 - Google Drive")
