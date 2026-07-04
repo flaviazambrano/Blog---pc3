@@ -138,7 +138,7 @@ elif opciones == 'Experiencia':
         con el propósito de comprender cómo se utilizan estos conceptos 
         básicos en la programación en Python."""
     )
- st.subheader("🎥 Video 2 - YouTube")
+    st.subheader("🎥 Video 2 - YouTube")
     # Inserta un video de YouTube directamente en la aplicación.
     # El usuario puede reproducirlo sin salir de Streamlit.
     st.video("https://www.youtube.com/watch?v=BY72HAKRFqM")
