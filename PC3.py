@@ -172,15 +172,17 @@ elif opciones == 'Gráficos':
     grafico_seleccionado = st.selectbox('Selecciona un gráfico', graficos)
 
     # Mostramos el gráfico seleccionado
-    if grafico_seleccionado == 'Gráfico_1':
+    if grafico_seleccionado == 'barras.png':
         # Título de la sección
-        st.subheader("📊 Gráfico 1: Lenguas aisladas")
+        st.subheader("📊 Gráfico 1: Pastel")
 
         # Interpretación del gráfico
         st.markdown(
             """
             <div style='text-align: justify; font-size: 20px;'>
-            Aquí debe ir una breve interpretación de tu gráfico.
+           Este histograma muestra cuántos goles anotó el Real Madrid en los partidos
+           jugados como local. Permite identificar cuál fue la cantidad de goles que más 
+           repitió el equipo en casa y observar su rendimiento ofensivo cuando jugó en su estadio.
             </div>
             """,
             unsafe_allow_html=True
