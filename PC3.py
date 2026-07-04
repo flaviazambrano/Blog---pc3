@@ -241,13 +241,17 @@ elif opciones == 'Gráficos':
             )
     elif grafico_seleccionado == 'Mapa_1':
         # Título de la sección
-        st.subheader("🗺️ Mapa 1: Distribución geográfica")
+        st.subheader("Lugares de grabación de mi top 5 de películas favoritas")
 
         # Interpretación del mapa
         st.markdown(
             """
             <div style='text-align: justify; font-size: 18px;'>
-            Aquí debe ir una breve interpretación del mapa.
+            Este mapa interactivo muestra los lugares de grabación de mis cinco películas favoritas. 
+            Cada marcador representa una película y contiene información relevante como el director, 
+            el año de estreno, el género, el país y el lugar donde fue grabada. Gracias a las coordenadas 
+            geográficas, es posible ubicar cada producción en el mapa y explorar su información 
+            de manera interactiva.
             </div>
             """,
             unsafe_allow_html=True
