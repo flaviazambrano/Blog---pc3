@@ -154,7 +154,7 @@ elif opciones == 'Experiencia':
 elif opciones == 'Gráficos':
     st.markdown("<h2 style='text-align: center;'>Un vistazo a los gráficos de mis análisis</h2>", unsafe_allow_html=True)
 
-    graficos = ['Gráfico_1', 'Gráfico_2', 'Grafico_3' , 'Mapa_1']
+    graficos = ['Gráfico_1', 'Gráfico_2', 'Grafico_3', 'Grafico 4' , 'Mapa_1']
 
     grafico_seleccionado = st.selectbox('Seleccionar un gráfico', graficos)
 
@@ -252,6 +252,31 @@ elif opciones == 'Gráficos':
                 "pastel.png",
                 width=800
             )
+        elif grafico_seleccionado == 'Grafico_4':
+        # Título de la sección
+        st.subheader("Las palabras que describen mi camino en la programación")
+
+        # Interpretación del gráfico
+        st.markdown(
+            """
+            <div style='text-align: justify; font-size: 18px;'>
+           Una nube de palabras es una representación visual en la que el tamaño 
+           de cada palabra depende de la frecuencia con la que aparece en un texto. 
+           En este caso, la nube resume mi experiencia durante el curso de Pensamiento 
+           Computacional, destacando los conceptos, retos y aprendizajes que más marcaron 
+           mi proceso de formación en programación.
+            </div>
+            """,
+            unsafe_allow_html=True
+        )
+
+        # Centrar la imagen
+        col6, col7, col8 = st.columns([1, 5, 1])
+
+        with col7:
+            st.image(
+                "nubedepalabras.png",
+                width=800
     elif grafico_seleccionado == 'Mapa_1':
         # Título de la sección
         st.subheader("Lugares de grabación de mi top 5 de películas favoritas")
