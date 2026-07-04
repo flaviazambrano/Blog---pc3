@@ -221,7 +221,7 @@ elif opciones == 'Gráficos':
                 "hisstograma .png",
                 width=800
             )
-    elif grafico_seleccionado == 'Gráfico_3':
+    elif grafico_seleccionado == 'Grafico_3':
         # Título de la sección
         st.subheader("Rendimiento del Real Madrid como visitante")
 
