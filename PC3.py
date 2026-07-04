@@ -169,12 +169,12 @@ elif opciones == 'Gráficos':
 
     graficos = ['Gráfico_1', 'Gráfico_2', 'Mapa_1']
 
-    grafico_seleccionado = st.selectbox('Selecciona un gráfico', graficos)
+    grafico_seleccionado = st.selectbox('barras.png', graficos)
 
     # Mostramos el gráfico seleccionado
     if grafico_seleccionado == 'barras.png':
         # Título de la sección
-        st.subheader("📊 Gráfico 1: Pastel")
+        st.subheader("Real Madrid: goles anotados como local: ")
 
         # Interpretación del gráfico
         st.markdown(
