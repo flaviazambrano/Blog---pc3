@@ -252,7 +252,7 @@ elif opciones == 'Gráficos':
                 "pastel.png",
                 width=800
             )
-elif grafico_seleccionado == 'Grafico_4':
+    elif grafico_seleccionado == 'Grafico_4':
         # Título de la sección
         st.subheader("Las palabras que describen mi camino en la programación")
 
@@ -278,7 +278,7 @@ elif grafico_seleccionado == 'Grafico_4':
                 "nubedepalabras.png",
                 width=800
             )
-elif grafico_seleccionado == 'Mapa_1':
+    elif grafico_seleccionado == 'Mapa_1':
         # Título de la sección
         st.subheader("Lugares de grabación de mi top 5 de películas favoritas")
 
