@@ -105,12 +105,16 @@ elif opciones == 'Experiencia':
 
     # Agregar un  texto para la respuesta
     texto_2 = """
-    Aquí escribe tu experiencia aprendiendo a programar. 
-    ¿Cómo te sentiste al principio?, 
-    ¿Qué te ha enseñado la programación?, 
-    ¿Qué te gusta de programar?, 
-    ¿Qué te gustaría hacer con la programación en el futuro?
-    ¿Cómo se relaciona lo que haz aprendido con tu carrera?
+    Aprender a programar ha sido un reto para mí. 
+    Al principio me sentí muy confundida porque es una 
+    forma de pensar diferente y, muchas veces, el código no 
+    salía como esperaba. Aunque programar me parece difícil 
+    y a veces estresante, siento mucha satisfacción cuando 
+    logro que el código funcione correctamente. En el futuro no 
+    me gustaría dedicarme a la programación, pero sí aprender 
+    lo básico para desarrollar proyectos sencillos. Como estudiante de Periodismo, 
+    creo que estos conocimientos son útiles porque me ayudan a comprender
+    mejor las herramientas digitales y la tecnología que cada vez tienen más importancia en mi carrera.
     """
 
     # Mostramos el texto
