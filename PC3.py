@@ -193,15 +193,21 @@ elif opciones == 'Gráficos':
 
     elif grafico_seleccionado == 'Gráfico_2':
         # Título de la sección
-        st.subheader("Real Madrid: goles recibidos como local")
+        st.subheader("Distribución de los goles anotados y recibidos por el Real Madrid como local y visitante")
 
         # Interpretación del gráfico
         st.markdown(
             """
             <div style='text-align: justify; font-size: 18px;'>
-           Este gráfico representa los goles que recibió el Real Madrid jugando como local.
-           Sirve para analizar su desempeño defensivo en casa y ver con qué frecuencia recibió 
-           pocos o muchos goles en sus partidos.
+           La figura presenta cuatro histogramas que analizan el rendimiento del Real Madrid tanto 
+           en condición de local como de visitante. Los gráficos muestran la frecuencia con la que el equipo 
+           anotó y recibió goles durante la temporada, permitiendo comparar su desempeño ofensivo y defensivo 
+           en ambas condiciones de juego.
+
+            Los dos primeros histogramas corresponden a los partidos disputados como local, mientras que los 
+            dos últimos representan los encuentros jugados como visitante. En conjunto, estos gráficos permiten 
+            identificar las cantidades de goles que ocurrieron con mayor frecuencia y observar el comportamiento 
+            del equipo a lo largo de la temporada.
             </div>
             """,
             unsafe_allow_html=True
