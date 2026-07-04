@@ -221,6 +221,37 @@ elif opciones == 'Gráficos':
                 "hisstograma .png",
                 width=800
             )
+    elif grafico_seleccionado == 'Gráfico_3':
+        # Título de la sección
+        st.subheader("Rendimiento del Real Madrid como visitante")
+
+        # Interpretación del gráfico
+        st.markdown(
+            """
+            <div style='text-align: justify; font-size: 18px;'>
+           Este gráfico de pastel muestra la distribución de los resultados obtenidos 
+           por el Real Madrid en los partidos que disputó como visitante durante la temporada.
+           Se observa que el 57.9 % de los encuentros terminaron en victoria, lo que representa 
+           la mayor proporción del gráfico y evidencia un buen desempeño del equipo fuera de casa.
+
+            Por otro lado, tanto los empates como las derrotas representan el 21.1 % cada uno, 
+            lo que indica que ambos resultados ocurrieron con la misma frecuencia. En conjunto, 
+            el gráfico permite concluir que el Real Madrid obtuvo un rendimiento positivo como visitante, 
+            ya que ganó más de la mitad de los partidos disputados fuera de su estadio, mientras que los empates 
+            y las derrotas tuvieron una participación considerablemente menor.
+            </div>
+            """,
+            unsafe_allow_html=True
+        )
+
+        # Centrar la imagen
+        col6, col7, col8 = st.columns([1, 5, 1])
+
+        with col7:
+            st.image(
+                "pastel.png",
+                width=800
+            )
     elif grafico_seleccionado == 'Mapa_1':
         # Título de la sección
         st.subheader("🗺️ Mapa 1: Distribución geográfica")
