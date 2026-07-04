@@ -172,7 +172,7 @@ elif opciones == 'Gráficos':
     grafico_seleccionado = st.selectbox('Gráfico_1', graficos)
 
     # Mostramos el gráfico seleccionado
-    if grafico_seleccionado == 'Seleccionar algún grafico :)':
+    if grafico_seleccionado == 'Gräfico_1':
         # Título de la sección
         st.subheader("Real Madrid: goles anotados como local: ")
 
