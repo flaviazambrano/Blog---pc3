@@ -128,7 +128,7 @@ elif opciones == 'Experiencia':
     # El usuario puede reproducirlo sin salir de Streamlit.
     st.video("https://www.youtube.com/watch?v=SJ-UMN_M62k")
     # Agrega una breve descripción del video.
-    st.caption(
+    st.markdown(
         """En este video se presenta una explicación de los tipos de datos 
         y las expresiones booleanas en Python, utilizando ejemplos prácticos 
         desarrollados en Google Colab. A lo largo del video se explica el 
@@ -143,7 +143,7 @@ elif opciones == 'Experiencia':
     # El usuario puede reproducirlo sin salir de Streamlit.
     st.video("https://www.youtube.com/watch?v=BY72HAKRFqM")
     # Agrega una breve descripción del video.
-    st.caption(
+    st.markdown(
         """En este video se presenta una explicación sobre las diferencias entre 
         las declaraciones condicionales if, if-else e if-elif-else en Python. 
         Para ello, se utilizan ejemplos propios relacionados con objetos de una fiesta 
