@@ -161,15 +161,22 @@ elif opciones == 'Gráficos':
     # Mostramos el gráfico seleccionado
     if grafico_seleccionado == 'Gráfico_1':
         # Título de la sección
-        st.subheader("Real Madrid: goles anotados como local: ")
+        st.subheader("Comparación del rendimiento ofensivo y defensivo del Real Madrid como local y visitante")
 
         # Interpretación del gráfico
         st.markdown(
             """
             <div style='text-align: justify; font-size: 20px;'>
-           Este histograma muestra cuántos goles anotó el Real Madrid en los partidos
-           jugados como local. Permite identificar cuál fue la cantidad de goles que más 
-           repitió el equipo en casa y observar su rendimiento ofensivo cuando jugó en su estadio.
+           Esta figura presenta cuatro histogramas que analizan el rendimiento del Real Madrid durante la temporada, 
+           diferenciando los partidos disputados como local y como visitante. Los gráficos muestran la frecuencia 
+           con la que el equipo anotó y recibió determinada cantidad de goles en cada condición de juego.
+
+            Los dos primeros histogramas corresponden al desempeño del Real Madrid como local: el primero representa 
+            los goles anotados y el segundo los goles recibidos. Los dos últimos muestran el comportamiento del equipo 
+            cuando juega como visitante, diferenciando nuevamente entre los goles anotados y los goles recibidos.
+
+            En conjunto, estos gráficos permiten comparar el rendimiento ofensivo y defensivo del equipo tanto en casa 
+            como fuera de ella, identificando las cantidades de goles que se presentan con mayor frecuencia en cada situación.
             </div>
             """,
             unsafe_allow_html=True
