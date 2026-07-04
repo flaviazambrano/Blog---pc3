@@ -218,7 +218,7 @@ elif opciones == 'Gráficos':
 
         with col7:
             st.image(
-                "hisstograma.png",
+                "hisstograma .png",
                 width=800
             )
     elif grafico_seleccionado == 'Mapa_1':
