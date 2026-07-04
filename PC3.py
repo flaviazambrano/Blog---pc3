@@ -167,7 +167,7 @@ elif opciones == 'Experiencia':
 elif opciones == 'Gráficos':
     st.markdown("<h2 style='text-align: center;'>Nombre a la sección 'Gráficos'</h2>", unsafe_allow_html=True)
 
-    graficos = ['Gráfico_1', 'Gráfico_2', 'Mapa_1']
+    graficos = ['Gráfico_1', 'Gráfico_2', 'Grafico_3' y 'Mapa_1']
 
     grafico_seleccionado = st.selectbox('Seleccionar un gráfico', graficos)
 
