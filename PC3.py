@@ -125,14 +125,14 @@ elif opciones == 'Experiencia':
     st.video("https://www.youtube.com/watch?v=SJ-UMN_M62k")
     # Agrega una breve descripción del video.
     st.caption(
-        "En este video se presenta una explicación de los tipos de datos 
+        """En este video se presenta una explicación de los tipos de datos 
         y las expresiones booleanas en Python, utilizando ejemplos prácticos 
         desarrollados en Google Colab. A lo largo del video se explica el 
         funcionamiento de los principales tipos de datos (string, integer, 
         float y boolean), el uso de variables, la función print(), las 
         f-strings, los operadores aritméticos y las expresiones booleanas, 
         con el propósito de comprender cómo se utilizan estos conceptos 
-        básicos en la programación en Python."
+        básicos en la programación en Python."""
     )
 
     # Formato B
