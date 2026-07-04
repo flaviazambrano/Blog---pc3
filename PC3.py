@@ -132,7 +132,7 @@ elif opciones == 'Experiencia':
         float y boolean), el uso de variables, la función print(), las 
         f-strings, los operadores aritméticos y las expresiones booleanas, 
         con el propósito de comprender cómo se utilizan estos conceptos 
-        básicos en la programación en Python. "
+        básicos en la programación en Python."
     )
 
     # Formato B
