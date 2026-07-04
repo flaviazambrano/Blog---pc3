@@ -172,7 +172,7 @@ elif opciones == 'Gráficos':
     grafico_seleccionado = st.selectbox('Gráfico_1', graficos)
 
     # Mostramos el gráfico seleccionado
-    if grafico_seleccionado == 'Gráfico_1':
+    if grafico_seleccionado == 'Seleccionar algún grafico :)':
         # Título de la sección
         st.subheader("Real Madrid: goles anotados como local: ")
 
@@ -199,13 +199,15 @@ elif opciones == 'Gráficos':
 
     elif grafico_seleccionado == 'Gráfico_2':
         # Título de la sección
-        st.subheader("📊 Gráfico 2: Familias lingüísticas")
+        st.subheader("Real Madrid: goles recibidos como local")
 
         # Interpretación del gráfico
         st.markdown(
             """
             <div style='text-align: justify; font-size: 18px;'>
-            Aquí debe ir una breve interpretación del gráfico.
+           Este gráfico representa los goles que recibió el Real Madrid jugando como local.
+           Sirve para analizar su desempeño defensivo en casa y ver con qué frecuencia recibió 
+           pocos o muchos goles en sus partidos.
             </div>
             """,
             unsafe_allow_html=True
@@ -216,7 +218,7 @@ elif opciones == 'Gráficos':
 
         with col7:
             st.image(
-                "lengua_familia_GB.png",
+                "hisstograma.png",
                 width=800
             )
     elif grafico_seleccionado == 'Mapa_1':
