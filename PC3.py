@@ -252,7 +252,7 @@ elif opciones == 'Gráficos':
                 "pastel.png",
                 width=800
             )
-        elif grafico_seleccionado == 'Grafico_4':
+elif grafico_seleccionado == 'Grafico_4':
         # Título de la sección
         st.subheader("Las palabras que describen mi camino en la programación")
 
